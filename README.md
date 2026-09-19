@@ -48,7 +48,7 @@ Samples: `Xenium_human_skin_s1`, `Xenium_human_skin_s2` (healthy skin, pretraini
 
 ## Setup
 
-1. **Data.** Download the data archive (link provided with the submission) and unpack it here so that the
+1. **Data.** Download the data archive https://drive.google.com/file/d/1hLzm1kIsXOlPFSjN4w3f_ZFWjiuOdbTG/view?usp=sharing and unpack it here so that the
    `data/` and `cellvit_output/` folders above exist (about 5.2 GB); verify the files with
    `awk 'NR>1{print $1"  "$3}' MANIFEST.tsv | md5sum -c`.
    Download the CellViT-SAM-H (40×) checkpoint from the CellViT release
