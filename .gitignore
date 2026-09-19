@@ -1,0 +1,10 @@
+# data and heavy artefacts are distributed separately (see README.md, MANIFEST.tsv)
+data/
+cellvit_output/
+output/
+cellvit/models/pretrained/
+# local state
+.omc/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

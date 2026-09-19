@@ -1,0 +1,20 @@
+# TACCO environment for step 0 (annotation.py xenium / hd-segmented / tacco); name must match TACCO_ENV in annotation.py.
+# Exact package list of the environment used here: envs/exported/tacco_env.yml
+name: tacco_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - tacco=0.4.0.post1
+  - scanpy=1.11.5
+  - anndata=0.11.4
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.15.2
+  - scikit-learn=1.7.2
+  - h5py=3.15.1
+  - pyyaml=6.0.3
+  - tqdm=4.67.1
+  - pip
+  - pip:
+      - pyarrow==23.0.0
